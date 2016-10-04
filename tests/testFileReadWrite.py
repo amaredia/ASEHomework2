@@ -5,8 +5,8 @@ Created on Mon Oct  3 22:03:26 2016
 @author: Angel Maredia
 """
 
-import unittest
-import fileReadWrite
+import unittest 
+from guestlist.main import fileReadWrite
 import os
 
 class TestFileReadWrite(unittest.TestCase):
